@@ -1,8 +1,20 @@
 {
   "name": "micro-frontends",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "git@github.com:Javiani/micro-frontends.git",
   "author": "Javiani <eduardo.ottaviani@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/pages/form-example/index.pug",
+    "build": "parcel build src/mfe/**/index.html"
+  },
+  "devDependencies": {
+    "@parcel/transformer-pug": "2.10.3",
+    "parcel": "^2.10.3"
+  },
+  "dependencies": {
+    "@rive-app/canvas": "^2.9.0",
+    "jails-js": "^5.5.3",
+    "swiper": "^11.0.5"
+  }
 }
