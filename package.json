@@ -1,0 +1,8 @@
+{
+  "name": "micro-frontends",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Javiani/micro-frontends.git",
+  "author": "Javiani <eduardo.ottaviani@gmail.com>",
+  "license": "MIT"
+}
