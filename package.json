@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel src/pages/form-example/index.pug",
-    "build": "parcel build src/mfe/**/index.html"
+    "build": "parcel build src/mfe/**/index.*"
   },
   "alias":{
     "mfe":"./src/mfe"
