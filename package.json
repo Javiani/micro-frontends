@@ -5,7 +5,7 @@
   "author": "Javiani <eduardo.ottaviani@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel src/pages/form-example/index.pug",
+    "dev": "parcel src/pages/home/index.pug",
     "build": "parcel build src/mfe/**/index.*"
   },
   "alias":{
