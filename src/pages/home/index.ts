@@ -1,11 +1,11 @@
 import jails from 'jails-js'
-import Swiper from 'swiper'
+import mfe from 'pages/home/mfe'
 
-import * as mfeStepForm from '../../mfe/mfe-step-form'
-import * as formValidation from '../../components/form-validation'
-import config from '../../components/form-validation/config'
-
-jails.register('form-validation', formValidation, { ...config })
-jails.register('mfe-step-form', mfeStepForm, { Swiper })
-
-jails.start()
+mfe( jails )
+    .install([{
+        tag     : 'mfe-step-form', 
+        target  : '#banner',
+        html    : '/mfe-step-form/index.html',
+        js      : '/mfe-step-form/index.js',
+        css     : '/mfe-step-form/index.css'
+    }])

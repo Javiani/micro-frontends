@@ -5,11 +5,8 @@
   "author": "Javiani <eduardo.ottaviani@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel src/pages/home/index.pug",
-    "build": "parcel build src/mfe/**/index.*"
-  },
-  "alias":{
-    "mfe":"./src/mfe"
+    "dev": "parcel src/pages/home/index.pug --no-cache",
+    "build": "parcel build src/mfe/**/index.* --no-cache"
   },
   "devDependencies": {
     "@parcel/transformer-pug": "2.10.3",
